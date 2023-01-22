@@ -1,0 +1,15 @@
+$font-primary: "Open Sans";
+$font-nav-links: "Archivo Narrow";
+
+$colours: (
+  primary-color: #C32C72,
+  primary-background-color: #E5E5E5,
+  secondary-background-color: #F4F3EE,
+  navbar-link-color: #8D8D8D,
+  brand-color: #262626,
+  home-heading-color: #463F3A,
+);
+
+@function getColour($colour) {
+  @return map-get($colours, $colour)
+}
