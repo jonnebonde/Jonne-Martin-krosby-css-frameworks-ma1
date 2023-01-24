@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: getColour(primary-background-color);
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+.navbar__container {
+  width: 100%;
+  background: getColour(secondary-background-color);
+}
