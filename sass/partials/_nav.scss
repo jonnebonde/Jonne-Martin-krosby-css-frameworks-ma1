@@ -47,6 +47,10 @@
   a {
     color: getColour(navbar-link-color) !important;
     text-transform: uppercase;
+
+    &:hover {
+      color: getColour(primary-color) !important;
+    }
   }
 
   .active {

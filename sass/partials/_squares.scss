@@ -1,0 +1,29 @@
+
+.row {
+  gap: 25px 26px;
+  justify-content: center;
+  margin: 0 auto;
+
+  .container__row--square {
+    background: getColour(secondary-background-color);
+    width: 264px;
+    width: 100%;
+    max-width: 265px;
+    height: 264px;
+    border-radius: 15px;
+    padding: 0;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);  
+  }
+
+  .row__square--border {
+    border: 3px solid getColour(primary-color);
+    background: getColour(white);
+  }
+
+  .row__square--full {
+    border: 3px solid getColour(white);
+    background: getColour(primary-color);
+  }
+
+}
+
