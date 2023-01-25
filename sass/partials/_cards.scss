@@ -1,26 +1,23 @@
 
 .row {
-  gap: 25px 26px;
   justify-content: center;
-  margin: 0 auto;
+  gap: 25px;
 
-  .container__row--square {
+  .container__row--card {
     background: getColour(secondary-background-color);
-    width: 264px;
-    width: 100%;
-    max-width: 265px;
-    height: 264px;
     border-radius: 15px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);
+    height: 256px;
+    width: 256px;
     padding: 0;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);  
   }
 
-  .row__square--border {
+  .row__card--border {
     border: 3px solid getColour(primary-color);
     background: getColour(white);
   }
 
-  .row__square--full {
+  .row__card--full {
     border: 3px solid getColour(white);
     background: getColour(primary-color);
   }
