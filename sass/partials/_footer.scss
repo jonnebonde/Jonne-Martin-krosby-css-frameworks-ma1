@@ -2,24 +2,21 @@ footer {
   background: getColour(secondary-background-color);
   padding: 13px 0;
 
-
   .footer__text {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
     width: 90%;
     margin: 0 auto;
 
-    @media (min-width: 414px) {
+    @media (min-width: $width-small) {
       justify-content: space-between;
       flex-direction: row;
       align-items: center;
     }
   }
   
-
   a {
     font-family: $font-primary;
     font-size: 12px;

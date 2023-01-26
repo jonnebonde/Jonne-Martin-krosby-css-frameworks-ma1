@@ -1,0 +1,6 @@
+@mixin card-size($height, $width) {
+  min-width: $width ;
+  max-width: $width ;
+  height: $height;
+}
+

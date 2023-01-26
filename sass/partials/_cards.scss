@@ -1,24 +1,29 @@
-
 .row {
   justify-content: center;
-  gap: 25px;
+  gap: 33px;
+
+  @media (min-width: $width-large) {
+    gap: 25px 28px; 
+  }
 
   .container__row--card {
     background: getColour(secondary-background-color);
-    border-radius: 15px;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);
-    height: 256px;
-    width: 256px;
-    padding: 0;
+    @include card-size(355px, 357px);
+    border-radius: 15px;
+
+    @media (min-width: $width-medium) {
+      @include card-size(265px, 263px);
+    }
   }
 
   .row__card--border {
-    border: 3px solid getColour(primary-color);
+    box-shadow: 0 0 0 3px getColour(primary-color) inset;
     background: getColour(white);
   }
 
   .row__card--full {
-    border: 3px solid getColour(white);
+    box-shadow: 0 0 0 3px getColour(white) inset;
     background: getColour(primary-color);
   }
 

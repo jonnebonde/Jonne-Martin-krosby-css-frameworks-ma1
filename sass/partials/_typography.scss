@@ -1,10 +1,10 @@
 h1 {
   font-family: $font-primary;
-  font-size: 34;
+  font-size: 34px;
   text-align: center;
   margin: 30px 0;
 
-  @media (min-width: $width-mobile) {
+  @media (min-width: $width-small) {
     margin: 60px 0;
   }
 }

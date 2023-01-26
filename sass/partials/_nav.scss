@@ -3,10 +3,8 @@
   height: 70px;
   padding: 0;
   z-index: 3;
-  max-width: $max-width-nav;
-  width: 100%;
 
-    @media (min-width: $width-mobile) {
+    @media (min-width: $width-small) {
       width: 90%;
       margin: 0 auto;
     }
@@ -22,7 +20,6 @@
     margin: 0 auto;
     justify-content: space-between !important;
   }
-
 }
 
 .navbar-toggler {
@@ -39,7 +36,7 @@
 
   .navbar-nav {
     font-family: $font-nav-links !important;
-    font-size: 18px;
+    font-size: clamp(0.9375rem, -106.875rem + 300vw, 1.125rem);
     width: 90%;
     margin: 0 auto;
   }
