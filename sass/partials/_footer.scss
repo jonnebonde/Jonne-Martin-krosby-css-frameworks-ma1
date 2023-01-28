@@ -2,7 +2,7 @@ footer {
   background: getColour(secondary-background-color);
   padding: 13px 0;
 
-  .footer__text {
+  &__text {
     display: flex;
     justify-content: center;
     flex-direction: column;

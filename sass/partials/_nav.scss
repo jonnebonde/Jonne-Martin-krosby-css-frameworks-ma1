@@ -14,7 +14,7 @@
     font-family: $font-primary;
   }
 
-  .navbar__mobile_links {
+  &__mobile_links {
     display: flex;
     width: 90%;
     margin: 0 auto;

@@ -6,7 +6,7 @@
     gap: 25px 28px; 
   }
 
-  .container__row--card {
+  &__card {
     background: getColour(secondary-background-color);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);
     @include card-size(355px, 357px);
@@ -17,12 +17,12 @@
     }
   }
 
-  .row__card--border {
+  &__card--border {
     box-shadow: 0 0 0 3px getColour(primary-color) inset;
     background: getColour(white);
   }
 
-  .row__card--full {
+  &__card--full {
     box-shadow: 0 0 0 3px getColour(white) inset;
     background: getColour(primary-color);
   }
