@@ -8,27 +8,33 @@
       width: 90%;
       margin: 0 auto;
     }
-    
-  .navbar-brand {
-    font-size: 36px;
-    font-family: $font-primary;
-  }
 
-  &__mobile_links {
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-    justify-content: space-between !important;
-  }
-}
-
-.navbar-toggler {
-    border: none;
-
-    &:focus {
-      outline: none;
+    &__mobile_links {
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-between !important;
     }
+    
+    &-brand {
+      font-size: 36px;
+      font-family: $font-primary;
+    }
+
+    button {
+      border: none !important;
+      color: getColour(navbar-toggler) !important;
+  
+      &:focus {
+        outline: none;
+      }
+  }
 }
+
+.hidden {
+  display: none;
+}
+
 
 .navbar-collapse {
   justify-content: flex-end;
